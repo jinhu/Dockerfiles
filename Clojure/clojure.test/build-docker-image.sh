@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t cyberdojofoundation/clojure_clojure.test .
+docker build -t cyberdojofoundation/clojure_clojure_test .
