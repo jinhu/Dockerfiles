@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t dj1nn/android_cucumber .
+docker build -t cyberdojofoundation/android_cucumber .
