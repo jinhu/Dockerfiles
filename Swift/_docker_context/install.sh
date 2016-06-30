@@ -12,6 +12,7 @@ SWIFT_SNAPSHOT=${SWIFT_SNAPSHOT_URL_DIRECTORY}-ubuntu14.04
 wget https://swift.org/builds/development/ubuntu1404/${SWIFT_SNAPSHOT_URL_DIRECTORY}/${SWIFT_SNAPSHOT}.tar.gz
 
 tar -xvf ${SWIFT_SNAPSHOT}.tar.gz
+chmod -R a+r ${SWIFT_SNAPSHOT}/usr
 cp -r ${SWIFT_SNAPSHOT}/usr/* /usr/
 
 rm -rf ${SWIFT_SNAPSHOT}
