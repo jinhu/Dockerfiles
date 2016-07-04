@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t cyberdojofoundation/java-1.8 .
+docker build -t altran/java-1.8 .

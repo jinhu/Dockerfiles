@@ -1,6 +1,8 @@
+FROM       ubuntu:14.04
+MAINTAINER Jinmin Hu <jinmin.hu@altran.com>
 
-FROM       cyberdojofoundation/build-essential
-MAINTAINER Luca B <blmlcu [at] gmail {dot} org>
+RUN apt-get update
+#&& apt-get install --yes build-essential automake git
 
 RUN apt-get -y --force-yes -qq install wget
 
