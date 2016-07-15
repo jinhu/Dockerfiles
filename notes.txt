@@ -6,10 +6,9 @@ for creating the language's base docker image. For example:
 is used to script the creation of the Go docker image
 
 Each language+test has its own language sub-folder
-which in turn has its own _docker_context sub-folder
 which contains the Dockerfile (and context) for creating
 the language+test's docker image. For example:
-  Go/testing/_docker_context/Dockerfile
+  Go/testing/Dockerfile
 is used to script the creation of the Go+testing docker image.
 
 Sometimes a language/test's Dockerfile
